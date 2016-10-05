@@ -41,6 +41,7 @@
 		0C6A92861DA2D5F300FD84E3 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C6A92841DA2D5F300FD84E3 /* 02.png */; };
 		0C6A92A21DA2DFF200FD84E3 /* drillAnimation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0C6A92A11DA2DFF200FD84E3 /* drillAnimation.gif */; };
 		0CAE5D6A1DA4524300684667 /* LinkedListStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE5D691DA4524300684667 /* LinkedListStack.m */; };
+		0CAE5D6D1DA461DD00684667 /* CombineGifImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE5D6C1DA461DD00684667 /* CombineGifImages.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -213,6 +214,8 @@
 		0C6A92A11DA2DFF200FD84E3 /* drillAnimation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = drillAnimation.gif; sourceTree = "<group>"; };
 		0CAE5D681DA4524300684667 /* LinkedListStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedListStack.h; sourceTree = "<group>"; };
 		0CAE5D691DA4524300684667 /* LinkedListStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedListStack.m; sourceTree = "<group>"; };
+		0CAE5D6B1DA461DD00684667 /* CombineGifImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombineGifImages.h; sourceTree = "<group>"; };
+		0CAE5D6C1DA461DD00684667 /* CombineGifImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombineGifImages.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +267,8 @@
 				0C5541A21DA177A40048B179 /* LaunchScreen.storyboard */,
 				0C5541A51DA177A40048B179 /* Info.plist */,
 				0C5541941DA177A40048B179 /* Supporting Files */,
+				0CAE5D6B1DA461DD00684667 /* CombineGifImages.h */,
+				0CAE5D6C1DA461DD00684667 /* CombineGifImages.m */,
 			);
 			path = CombineGif;
 			sourceTree = "<group>";
@@ -541,6 +546,7 @@
 				TargetAttributes = {
 					0C5541901DA177A40048B179 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5KQDYPKV9U;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -604,6 +610,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C55419C1DA177A40048B179 /* ViewController.m in Sources */,
+				0CAE5D6D1DA461DD00684667 /* CombineGifImages.m in Sources */,
 				0CAE5D6A1DA4524300684667 /* LinkedListStack.m in Sources */,
 				0C5541991DA177A40048B179 /* AppDelegate.m in Sources */,
 				0C5541961DA177A40048B179 /* main.m in Sources */,
@@ -726,7 +733,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5KQDYPKV9U;
 				INFOPLIST_FILE = CombineGif/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -741,7 +750,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5KQDYPKV9U;
 				INFOPLIST_FILE = CombineGif/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
